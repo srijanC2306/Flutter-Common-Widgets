@@ -36,7 +36,7 @@ class RegisterScreen extends StatelessWidget {
         if (state is RegisterErrorState) {
           return Text(state.errorMessage,
               style: theme.textTheme.bodyMedium?.copyWith(
-                color: theme.errorColor,
+                color: Colors.red,
               ));
         } else {
           return const Offstage();
