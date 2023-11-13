@@ -14,7 +14,7 @@ class RegisterScreen extends StatelessWidget {
     final theme = Theme.of(context);
     return Material(
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 24, vertical: 24),
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
         child: Column(
           children: [
             _logo(theme),
